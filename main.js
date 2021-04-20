@@ -36,7 +36,7 @@ inicializarLoja = () => {
             <img src="`+val.img+`"/>
             <p>`+val.nome+`</p>
             <p>R$`+val.valor+`</p>
-            <button key="`+val.id+`" href="#">Adicionar ao carrinho</button>
+            <a key="`+val.id+`" href="#">Adicionar ao carrinho</a>
         </div>
         `;
     })
